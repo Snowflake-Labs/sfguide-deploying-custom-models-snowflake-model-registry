@@ -1,4 +1,4 @@
-# sfguide-deploying-custom-models-snowflake-model-registry
+# Deploying Custom Models To Snowflake Model Registry
 
 ## Overview
 
