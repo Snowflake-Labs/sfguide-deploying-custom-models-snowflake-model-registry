@@ -4,8 +4,9 @@ channels:
 dependencies:
   - python=3.10
   - joblib==1.2.0
-  - snowflake-snowpark-python==1.18.0
-  - snowflake-ml-python==1.5.2
-  - scipy==1.11.4
-  - pycaret==3.0.2
-  - notebook==7.0.8
+  - snowflake-snowpark-python
+  - snowflake-ml-python
+  - scipy==1.11.4 # This is due to a PyCaret Issue with later versions
+  - pycaret
+  - notebook
+  - scikit-learn
